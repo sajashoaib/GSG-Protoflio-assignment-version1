@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #c6c6c6;
+}
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 20px auto;
+}
+/* ********************** start hero style *************************** */
+.hero {
+  background-color: #343333;
+}
+.hero h2,
+.hero p,
+.blog h3,
+.blog p {
+  text-align: center;
+}
+.hero h2 {
+  font-weight: 800;
+  font-size: 30px;
+}
+.hero p {
+  color: #979595;
+  font-size: 22px;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 26%;
+}
+ul li {
+  display: inline;
+  padding: 0 10px;
+}
+.hero h2,
+.hero p,
+ul {
+  padding: 10px 0;
+}
+.hero h2,
+ul li a,
+.skills-btn button,
+.skills h3,
+footer h3 {
+  color: white;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 18px;
+}
+ul li a:hover {
+  color: #fab04f;
+  transition: 0.3s ease-in;
+}
+/* ********************** end hero style *************************** */
+
+/* ********************** start Common style *************************** */
+.hero,
+.about,
+.skills,
+.projects,
+.blog,
+.contact,
+footer {
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.about,
+.skills-btn,
+.projects,
+.contact {
+  background-color: white;
+}
+.about .about-text,
+.skills h3,
+.projects h3,
+.blog h3,
+.contact h3 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+/* ********************** end Common style *************************** */
+
+/* ********************** start about style *************************** */
+.about p {
+  font-size: 18px;
+}
+
+.about .gsg-img {
+  background-image: url(../images/saja1.jpg);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 15px auto;
+}
+/* ********************** end about style *************************** */
+
+/* ********************** start skills style *************************** */
+.skills {
+  background-image: url(../images/programming-1873854_1280.png);
+}
+.about .gsg-img,
+.skills {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.skills-btn {
+  opacity: 0.7;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.skills-btn button {
+  font-size: 20px;
+  background-color: rgb(23, 137, 5);
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.skills-btn button:hover {
+  background-color: rgb(22, 69, 15);
+  transform: translateY(-5px);
+}
+/* ********************** end skills style *************************** */
+
+/* ********************** start projects style *************************** */
+.projects {
+  position: relative;
+}
+.projects .card {
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.card h4 {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.card p {
+  font-size: 18px;
+  padding: 10px 0;
+}
+.card1 {
+  background-color: #6e99be;
+}
+
+.card2 {
+  background-color: #e79e8e;
+}
+.card3 {
+  background-color: #86b7e2;
+  position: absolute;
+  top: -440px;
+  left: 50px;
+}
+.blog {
+  background-color: #567974;
+  height: 250px;
+}
+/* ********************** end projects style *************************** */
+
+/* ********************** start contact style *************************** */
+.contact {
+  padding: 25px 0 25px 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background-color: #eeecec;
+}
+.contact label {
+  display: block;
+  margin: 10px 0;
+}
+.contact input,
+.contact textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #979595;
+  padding: 10px;
+}
+.contact button[type="submit"] {
+  padding: 10px 20px;
+  color: #08c208;
+  border: 1px solid #08c208;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.3s ease-in;
+  margin: 10px 0;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border: 1px solid #08c208;
+  outline: none;
+}
+
+.contact button[type="submit"]:hover {
+  background-color: #08c208;
+  color: white;
+}
+/* ********************** end contact style *************************** */
+
+/* ********************** start footer style *************************** */
+footer {
+  text-align: center;
+  background-color: #343333;
+}
+footer a {
+  text-decoration: none;
+  color: #fab04f;
+  transition: 0.3s;
+}
+footer a:hover {
+  color: white;
+}
+/* ********************** end footer style *************************** */
+
+/* ********************** start fixed button  style *************************** */
+.fixed-up-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  border-radius: 10px;
+  background-color: #6e99be;
+  padding: 5px 20px;
+  border: none;
+  display: none;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.fixed-up-btn::before {
+  content: "\21E7";
+  font-size: 50px;
+  color: white;
+}
+/* ********************** end fixed button  style *************************** */
