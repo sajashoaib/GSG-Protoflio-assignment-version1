@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(126, 126, 126);
+}
+
+.main-container {
+  margin: 20px 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.container-left {
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-right {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* *******************************left container************************************* */
+.tabs-arrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-tabs {
+  display: flex;
+  gap: 10px;
+}
+
+.main-tabs .tab {
+  height: 40px;
+  background-color: rgb(202, 201, 201);
+  width: 150px;
+}
+
+.main-tabs .tab:first-child {
+  background-color: rgb(126, 126, 126);
+}
+
+.arrow::before {
+  content: "\2192";
+  font-size: 30px;
+  color: rgb(91, 90, 90);
+}
+
+.hero-left-container {
+  height: 250px;
+  background-color: rgb(126, 126, 126);
+}
+.card-left-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.each-card {
+  width: 15%;
+}
+.photo-card {
+  background-color: rgb(202, 201, 201);
+  height: 100px;
+}
+.text-card {
+  background-color: rgb(202, 201, 201);
+  margin: 8px 0;
+  height: 10px;
+}
+.content-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.paraghraph-card {
+  width: 50%;
+  background-color: rgb(202, 201, 201);
+  height: 10px;
+}
+.num-card {
+  width: 30%;
+  background-color: rgb(202, 201, 201);
+  height: 10px;
+}
+/* *********************************right container******************************** */
+.main-right-tabs {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.main-right-tabs .tab {
+  width: 40px;
+  height: 30px;
+  background-color: rgb(202, 201, 201);
+}
+.hero-right-container {
+  height: 250px;
+  background-color: rgb(126, 126, 126);
+}
+.text-right-container {
+  background-color: rgb(202, 201, 201);
+  height: 30px;
+}
+.main-lines-photo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+.lines-photo {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.right-photo {
+  width: 20%;
+  background-color: rgb(202, 201, 201);
+  height: 70px;
+}
+.lines {
+  width: 80%;
+  flex-direction: column;
+  display: flex;
+  gap: 3px;
+}
+.each-line {
+  height: 11px;
+  background-color: rgb(202, 201, 201);
+}
+.first-main-line {
+  height: 3px;
+  background-color: rgb(126, 126, 126);
+}
+/* *************************************footer*********************************** */
+
+.footer {
+  background-color: rgb(202, 201, 201);
+  height: 36px;
+}
